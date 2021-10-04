@@ -21,7 +21,7 @@ def main():
             user_number = int(user_string)
             if user_number == answer_number:
                 # output
-                print("You are correctly.")
+                print("You are correct.")
                 break
             elif user_number < answer_number:
                 # output
