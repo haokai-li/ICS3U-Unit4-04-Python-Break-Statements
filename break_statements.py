@@ -30,7 +30,7 @@ def main():
         except Exception:
             # output
             print("You didn't enter an integer.")
-            break
+            print("")
 
     print("\nDone.")
 
