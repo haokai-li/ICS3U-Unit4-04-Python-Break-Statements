@@ -23,9 +23,13 @@ def main():
                 # output
                 print("You are correctly.")
                 break
+            elif user_number < answer_number:
+                # output
+                print("{} is lower.".format(user_number))
+                print("")
             else:
                 # output
-                print("{} is wrong.".format(user_number))
+                print("{} is higher.".format(user_number))
                 print("")
         except Exception:
             # output
